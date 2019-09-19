@@ -1,19 +1,53 @@
 <html>
+   <head>
+        <title>Story of a Centre Student</title>
+        <style>
+            body
+            {
+                background-color: gold;
+                font-family: georgia;
+            }
+            button
+            {
+                background-color: darkgrey;
+                padding: 15px 32px;
+                border-color: black;
+                font-size: 15px                
+            }
+            
+        </style>
+  </head>
+    
   <body>
       
     <h1>Story of a Centre Student</h1>
+      
     <button id = "firstClick" onclick="work()">Click to Begin the Story</button>
+      
+    <p id = "story"></p>
+    
     <script src="java.js">
     </script>
+    
+    <h3>----------------------7:30 AM---------------------</h3>
       
-<!--    <form>
-        <select id = "select1">
-            <option value = "1">Get breakfast and hit the books early</option>
-            <option value = "2">Hit the snooze button to catch another hour of sleep</option>
-        </select>
-    </form> -->
+    <button id = "secondClick" onclick="work2()">Hit the books early</button>
       
-    <button id = "secondClick" onclick="work2()">Get breakfast and hit the books early</button>
+    <button id = "thirdClick" onclick="work3()">Hit the snooze button</button>
       
+    <h3>----------------------8:30 AM----------------------</h3>
+      
+    <button id = "fourthClick" onclick="work4()">Head to class</button>
+      
+    <button id = "fifthClick" onclick="work5()">Skip class</button>
+      
+    <h3>----------------------5:00 PM----------------------</h3>
+      
+    <button id = "sixthClick" onclick="work6()">Take a power nap</button>
+      
+    <button id = "seventhClick" onclick="work7()">Go to Cowan and start work</button>
+      
+    <h2><i>Create a story below with the choices above. Choose one for each time.</i></h2>  
+    
   </body>
 </html>
